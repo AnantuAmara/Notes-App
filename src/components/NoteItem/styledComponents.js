@@ -9,8 +9,10 @@ export const ListItem = styled.li`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  height: 150px;
-  width: 150px;
+  height: 180px;
+  width: 200px;
+  padding: 20px;
+  margin: 20px;
 `
 
 export const ListHeading = styled.h1`
@@ -19,7 +21,7 @@ export const ListHeading = styled.h1`
   font-family: 'Roboto';
 `
 
-export const ListPara = styled.para`
+export const ListPara = styled.p`
   color: #334155;
   font-size: 15px;
   font-family: 'Roboto';

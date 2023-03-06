@@ -6,6 +6,7 @@ export const MainContainer = styled.div`
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   align-items: center;
 `
 
@@ -18,10 +19,13 @@ export const MainHeading = styled.h1`
 
 export const Card = styled.div`
   background-color: #ffffff;
-  height: 200px;
+  height: 300px;
   width: 80%;
   border: none;
   box-shadow: 0 0 2px 2px #475569;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 `
 
 export const Input = styled.input`
@@ -44,12 +48,15 @@ export const TextArea = styled.textarea`
 export const Button = styled.button`
   background-color: #4c63b6;
   color: #ffffff;
+  border: none;
+  border-radius: 4px;
   font-size: 15px;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 10px;
   padding-right: 10px;
   align-self: flex-end;
+  cursor: pointer;
 `
 
 export const NotesList = styled.ul`

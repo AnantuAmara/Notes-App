@@ -46,7 +46,7 @@ const Notes = () => {
           />
           <TextArea
             value={text}
-            rows="4"
+            rows="5"
             cols="50"
             placeholder="Take a Note..."
             onChange={onChangeText}
